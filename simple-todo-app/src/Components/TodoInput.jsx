@@ -15,8 +15,8 @@ const TodoInput = ({onTaskCreate}) =>{
 
     return (
     <div>
-        <input type="text" placeholder="Add Something..." value={text} onChange={handleChange} className="input-btn"/>
-        <Button title="ADD" onClick={handleClick} />
+        <input type="text" placeholder="Write Something..." value={text} onChange={handleChange} className="input-btn"/>
+        <Button title="+" onClick={handleClick} />
     </div>
     );
 };

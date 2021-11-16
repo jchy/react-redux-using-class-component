@@ -31,11 +31,11 @@ body{
 .Add-btn{
   background-color:rgb(84, 2, 2);
   height:40px;
-  width:15%;
-  border-radius: 10px;
+  width:40px;
+  border-radius: 10%;
   border: 1px solid black;
-  font-size:18px;
-  padding-left: 10px;
+  font-size:24px;
+  padding-bottom: 5px;
   color: white;
 }
 
@@ -43,12 +43,13 @@ body{
   /* border: 1px solid black; */
   width:90%;
   /* text-align: center; */
-  margin-left:4%;
+  /* margin-left:4%; */
   margin-top: 10px;
   height:40px;
   padding-top: 10px;
   padding-left: 20px;
   border-radius: 10px;
+  background-color: white;
 }
 
 .items{
