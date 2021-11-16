@@ -14,7 +14,7 @@ const TodoInput = ({onTaskCreate}) =>{
     };
 
     return (
-    <div>
+    <div className="todo-input">
         <input type="text" placeholder="Write Something..." value={text} onChange={handleChange} className="input-btn"/>
         <Button title="+" onClick={handleClick} />
     </div>

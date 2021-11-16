@@ -19,13 +19,14 @@ body{
 .input-btn{
   background-color:black;
   height:40px;
-  width:70%;
+  width:80%;
   border-radius: 10px;
   border: 1px solid black;
   font-size:20px;
   padding-left: 10px;
   color: white;
   margin-right: 10px;
+  margin-top: 20px;
 }
 
 .Add-btn{

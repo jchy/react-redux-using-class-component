@@ -38,7 +38,6 @@ const Todo = () =>{
     return (
     <>
         <Header title="TODO" />
-        <TodoInput onTaskCreate={handleTaskCreate} />
         {todos.map((todos)=>(
             < TodoItem
               title={todos.title}
@@ -49,6 +48,7 @@ const Todo = () =>{
               handleToggle = {handleToggle}
             />
         ))}
+        <TodoInput onTaskCreate={handleTaskCreate} />
     </>
     );
 };
