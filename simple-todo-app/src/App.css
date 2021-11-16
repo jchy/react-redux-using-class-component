@@ -68,22 +68,24 @@ body{
   border: 1px solid black;
 }
 .delete-btn{
-  background-color:white;
+  background-color:rgb(233, 7, 7);
   font-size:12px;
   height: 32px;
-  width:30px;
+  width:32px;
+  border-radius: 50%;
   margin-left: 5px;
   font-size:16px;
   font-weight:700;
 }
 .toggle-btn{
   /* background-color:white; */
-  background-color:black;
+  background-color:rgb(24, 103, 40);
   color: white;
   height:32px;
   font-size:16px;
   margin-left: 5px;
-  width:70px;
+  width:32px;
+  border-radius: 50%;
 }
 .i-num{
   height:32px;
